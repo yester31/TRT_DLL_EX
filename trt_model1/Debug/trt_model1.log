@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file preprocess.cu...
+  
+  C:\Users\USER\Desktop\git 저장소\TRT_DLL_EX\trt_model1>"F:\app\CUDA11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86" -x cu   -IF:\app\CUDA11.1\include -IF:\app\CUDA11.1\include  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -DTRTMODEL1_EXPORTS -D_WINDOWS -D_USRDLL -D_WINDLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc141.pdb /FS /Zi /RTC1 /MDd " -o Debug\preprocess.cu.obj "C:\Users\USER\Desktop\git 저장소\TRT_DLL_EX\trt_model1\preprocess.cu" 
+  preprocess.cu
+  detr.cpp
+c:\users\user\desktop\git 저장소\trt_dll_ex\trt_model1\detr.cpp(693): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  dllmain.cpp
+c:\users\user\desktop\git 저장소\trt_dll_ex\trt_model1\dllmain.cpp(2): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'Debug\trt_model1.pch': No such file or directory
+  trt_dll.cpp
+c:\users\user\desktop\git 저장소\trt_dll_ex\trt_model1\trt_dll.cpp(131): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  코드를 생성하고 있습니다...
